@@ -107,7 +107,7 @@ Here the size and number of anchor-box is decided by k-means, written in `init_a
 ```
 
 #### dataset
-We collect kitchen dataset(30,000+ images, 70,000+ labels), saved in  `~/otherSw/darknet/data/kitchen`. 
+We collected and labeled kitchen dataset(30,000+ images, 70,000+ labels), saved in  `~/otherSw/darknet/data/kitchen`. 
 The data comes from COCO,VOC,Imagenet, and our lab's kitchen.
 `transfer_coco2014.py` converts label from COCO2014, provided by YOLO author. And `rm_person.py` removes images that only have label for person.
 `voc_label_yyd.py` convert label from [VOC dataset](https://pjreddie.com/projects/pascal-voc-dataset-mirror/).
@@ -128,7 +128,7 @@ EVAL = kitchen
 ```
 `train.txt` and `val.txt` contains the whole kitchen dataset.
 
-#### change frequency to save weight
+#### change frequency of saving weight
 In `detector.c`, command `i%300==0` in line 136 decide the frequency to save weight. If you just want to see the final result, you can change it bigger, such as 10000.
 Don't forget to run 
 ```
@@ -151,6 +151,8 @@ If you want to train tiny-yolo model, run:
 ```
 ./darknet detector train cfg/kitchen.data cfg/tiny-yolo_kitchen.cfg darknet19_448.conv.23
 ```
+
+
 ### Use Pupil to record 
 ```
 cd ~/pupil/pupil_v0.9.14-7_linux_x64/pupil/src
