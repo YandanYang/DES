@@ -80,12 +80,12 @@ Run:
 ```
 ./darknet detector demo ~/otherSw/darknet/cfg/kitchen.data ~/otherSw/darknet/cfg/yolo41_kitchen.cfg ~/otherSw/darknet/backup/yolo41_kitchen_48000.weights /home/gazetracker/recordings/2018_02_17/006_95%/world.mp4
 ```
-Then you will see a video as output, with single cross and boundnig box on it.
+Then you will see a video as output, with single cross and bounding box on it.
 
 ## Develop
-Please remember, every time you modify .c or .h files, you need to compile darknet again.
+Please remember, every time you modify `.c` or `.h` files, you need to compile darknet again.
 ### Training Darknet
-This training process is seperated from pupil. 
+This training process has nothing to do with pupil. 
 #### check .cfg
 Modify `~/otherSw/darknet/cfg/yolo41_kitchen.cfg` for training instead of testing.
 `~/otherSw/darknet/cfg/yolo41_kitchen.cfg` should look like this:
