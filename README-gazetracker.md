@@ -15,7 +15,7 @@ Here we combine [Pupil](https://docs.pupil-labs.com) and [Darknet](https://pjred
 ### Installing
 
 #### Pupil
-The requirements for the installation of the pupil framework are listed in its [website]((https://docs.pupil-labs.com). For linux user, you can go straight [here](https://docs.pupil-labs.com/#linux-dependencies).
+The requirements for the installation of the pupil framework are listed in its [website](https://docs.pupil-labs.com). For linux user, you can go straight [here](https://docs.pupil-labs.com/#linux-dependencies).
 
 When installing opencv during this step, change :
 ```
