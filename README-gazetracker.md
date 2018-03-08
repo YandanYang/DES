@@ -96,7 +96,7 @@ Modify `~/otherSw/darknet/cfg/yolo41_kitchen.cfg` for training instead of testin
  subdivisions=8
  ....
 ```
-You can change the value of 'batch' and `subdivisions` to fit it with your GPU memory and increase the training speed. 
+You can change the value of `batch` and `subdivisions` to fit it with your GPU memory and increase the training speed. 
 Here the size and number of anchor-box is decided by k-means, written in init_anchor_box.py.
 ```
  [region]
