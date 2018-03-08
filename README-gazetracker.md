@@ -74,7 +74,8 @@ You should modify `~/otherSw/darknet/cfg/yolo41_kitchen.cfg` for testing instead
 ```
 cd ~/otherSw/darknet
 ```
-Since we only make change to demo module, so the third argument is `demo`. Details for other parameters, you can refer to [this website](https://pjreddie.com/darknet/yolo/)
+Since we only make change to demo module, so the third argument is `demo`. Details for other parameters, you can refer to [this website](https://pjreddie.com/darknet/yolo/).
+
 Run:
 ```
 ./darknet detector demo ~/otherSw/darknet/cfg/kitchen.data ~/otherSw/darknet/cfg/yolo41_kitchen.cfg ~/otherSw/darknet/backup/yolo41_kitchen_48000.weights /home/gazetracker/recordings/2018_02_17/006_95%/world.mp4
