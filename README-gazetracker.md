@@ -100,7 +100,7 @@ Modify `~/otherSw/darknet/cfg/yolo41_kitchen.cfg` for training instead of testin
  ....
 ```
 You can change the value of `batch` and `subdivisions` to fit it with your GPU memory and increase the training speed. 
-Here the size and number of anchor-box is decided by k-means, written in init_anchor_box.py.
+Here the size and number of anchor-box is decided by k-means, written in `init_anchor_box.py`.
 ```
  [region]
  anchors = 1.80856, 2.43484 , 4.28920, 6.24500 , 12.83713, 7.54301 , 7.35418 , 13.89931, 16.32208 , 16.81458
