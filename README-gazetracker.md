@@ -28,17 +28,10 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE -D BUILD_TBB=ON -D WITH_TBB=ON -D WITH_CUDA=OF
 This is because darknet will need opencv build with gtk.
 
 
-#### Demo recording of pupil
-Move 'recordings' into home path.
-```
-cd ~/otherSw/darknet
-cp -r recordings ~/
-```
-
 #### Darknet
 We have made some changes to original darknet, so you may just download it here.
 - Download this branch.
-- Unzip it and rename it to be darknet. I put this fold in ~/otherSW/. Some of the path in the code is writen according to this.
+- Unzip it and rename it to be darknet. I put this fold in `~/otherSw/`. Some of the path in the code is writen according to this.
 - Install darknet on your computer.
 
 I have already modify the Makefile as:
@@ -51,8 +44,15 @@ If you could use CUDNN, you can also add it.
 
 Then you need only two steps:
 ```
-cd ~/otherSw/darknet  #change the path as you set
+cd ~/otherSw/darknet  #go to the path you set
 make
+```
+
+#### Demo recording of pupil
+Move folder `recordings` into home path.
+```
+cd ~/otherSw/darknet
+cp -r recordings ~/
 ```
 
 Now you have downloaded all you need and everything installed.
