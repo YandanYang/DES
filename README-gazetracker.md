@@ -32,7 +32,7 @@ This is because darknet will need opencv build with gtk.
 We have made some changes to original darknet, so you may just download it here.
 - Download this branch.
 - Unzip it and rename it to be darknet. I put this fold in `~/otherSw/`. Some of the path in the code is writen according to this.
-- Install darknet on your computer.
+- Install darknet on your computer with the following step:
 
 I have already modify the Makefile as:
 ```
