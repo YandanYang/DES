@@ -9,8 +9,8 @@ Here we combine [Pupil](https://docs.pupil-labs.com) and [Darknet](https://pjred
 ### Prerequisites
 
 - The pupil version(pupil-0.9.14) need python3. So I install python3.5 on Ubuntu 16.04.
-- CUDA
-- Opencv. This is also a dependency of Pupil. So we will install opencv later.
+- CUDA. We test with Cuda V9.0.176.
+- Opencv. We test with oepncv-3.2.0-dev. This is also a dependency of Pupil. So we will install opencv later.
 
 ### Installing
 
